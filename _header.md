@@ -1,4 +1,4 @@
-# terraform-msgraph-connected-organization
+# terraform-msgraph-entraid-connected-organization
 
 A small module to add an external Entra ID tenant as a [connected organization](https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-organization)
 
