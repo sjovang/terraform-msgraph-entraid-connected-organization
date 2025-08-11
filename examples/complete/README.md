@@ -36,6 +36,11 @@ module "connected_organization" {
   external_sponsors = var.external_sponsors
   internal_sponsors = var.internal_sponsors
 }
+
+output "id" {
+  value       = module.connected_organization.connected_organization_id
+  description = "The ID of the connected organization created in Microsoft Graph."
+}
 ```
 
 <!-- markdownlint-disable MD033 -->
@@ -82,7 +87,11 @@ Default: `[]`
 
 ## Outputs
 
-No outputs.
+The following outputs are exported:
+
+### <a name="output_id"></a> [id](#output\_id)
+
+Description: The ID of the connected organization created in Microsoft Graph.
 
 ## Modules
 
